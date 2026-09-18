@@ -1,4 +1,5 @@
 
+
 select c.id,c.nome, c.email, c.cidade
 from clientes c
 where c.ativo = true
