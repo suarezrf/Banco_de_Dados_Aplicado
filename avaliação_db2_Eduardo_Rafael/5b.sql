@@ -1,3 +1,4 @@
+
 explain analyze
 select p.id, p.status,ip.produto_id, ip.quantidade, ip.preco_unitario
 from pedidos p
