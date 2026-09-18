@@ -1,3 +1,4 @@
+
 select r.nome as restaurante,pr.nome as produto, pr.preco,
        (
 	   	   select avg(pr2.preco)
