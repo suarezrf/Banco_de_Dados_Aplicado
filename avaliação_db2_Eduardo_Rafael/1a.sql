@@ -6,3 +6,4 @@ where canal = 'APP'
   and data_pedido < timestamp '2027-01-01 00:00:00'
   and status in ('PREPARANDO', 'SAIU_ENTREGA')
 order by data_pedido asc;
+
