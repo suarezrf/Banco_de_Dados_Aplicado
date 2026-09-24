@@ -34,5 +34,6 @@ values (
 select * from pedidos where id = 30002
 
 select * from historico_status where pedido_id = 30002
+-- usei o id 30002 pq por algum motivo meu id que começa em 30000 kkkkk
 
 ROLLBACK;
